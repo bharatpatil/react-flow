@@ -10,7 +10,7 @@ import ReactFlow, {
   useEdgesState,
   Controls,
   NodeOrigin,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import Sidebar from './Sidebar';
 

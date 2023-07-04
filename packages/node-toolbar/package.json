@@ -1,5 +1,5 @@
 {
-  "name": "@reactflow/node-toolbar",
+  "name": "@bhasp/node-toolbar",
   "version": "1.2.3",
   "description": "A toolbar component for React Flow that can be attached to a node.",
   "keywords": [
@@ -30,13 +30,13 @@
     "directory": "packages/node-toolbar"
   },
   "scripts": {
-    "dev": "concurrently \"rollup --config node:@reactflow/rollup-config --watch\" pnpm:css-watch",
-    "build": "rollup --config node:@reactflow/rollup-config --environment NODE_ENV:production",
+    "dev": "concurrently \"rollup --config node:@bhasp/rollup-config --watch\" pnpm:css-watch",
+    "build": "rollup --config node:@bhasp/rollup-config --environment NODE_ENV:production",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@reactflow/core": "workspace:*",
+    "@bhasp/core": "workspace:*",
     "classcat": "^5.0.3",
     "zustand": "^4.3.1"
   },
@@ -45,9 +45,9 @@
     "react-dom": ">=17"
   },
   "devDependencies": {
-    "@reactflow/eslint-config": "workspace:*",
-    "@reactflow/rollup-config": "workspace:*",
-    "@reactflow/tsconfig": "workspace:*",
+    "@bhasp/eslint-config": "workspace:*",
+    "@bhasp/rollup-config": "workspace:*",
+    "@bhasp/tsconfig": "workspace:*",
     "@types/node": "^18.7.16",
     "@types/react": ">=17",
     "@types/react-dom": ">=17",

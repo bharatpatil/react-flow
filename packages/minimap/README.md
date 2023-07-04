@@ -1,10 +1,10 @@
-# @reactflow/minimap
+# @bhasp/minimap
 
 Mini map component for React Flow.
 
 ## Installation 
 
 ```sh 
-npm install @reactflow/minimap
+npm install @bhasp/minimap
 ```
 

@@ -6,9 +6,9 @@ import './commands';
 import 'cypress-real-events/support';
 
 import { mount } from 'cypress/react18';
-import { XYPosition } from 'reactflow';
+import { XYPosition } from '@bhasp/reactflow';
 
-import 'reactflow/dist/style.css';
+import '@bhasp/reactflow/dist/style.css';
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace

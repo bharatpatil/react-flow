@@ -10,7 +10,7 @@ import ReactFlow, {
   Position,
   useNodesState,
   useEdgesState,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import CustomNode from './CustomNode';
 

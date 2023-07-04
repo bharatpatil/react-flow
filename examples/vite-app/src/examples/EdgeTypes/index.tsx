@@ -10,7 +10,7 @@ import ReactFlow, {
   Edge,
   useNodesState,
   useEdgesState,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import { getElements } from './utils';
 

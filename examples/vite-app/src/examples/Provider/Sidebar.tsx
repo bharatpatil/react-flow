@@ -1,4 +1,4 @@
-import { useReactFlow, useStore } from 'reactflow';
+import { useReactFlow, useStore } from '@bhasp/reactflow';
 
 import styles from './provider.module.css';
 

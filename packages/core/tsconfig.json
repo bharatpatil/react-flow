@@ -1,6 +1,6 @@
 {
-  "extends": "@reactflow/tsconfig/react.json",
-  "display": "@reactflow/core",
+  "extends": "@bhasp/tsconfig/react.json",
+  "display": "@bhasp/core",
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }

@@ -1,6 +1,6 @@
 {
-  "extends": "@reactflow/tsconfig/react.json",
-  "display": "@reactflow/background",
+  "extends": "@bhasp/tsconfig/react.json",
+  "display": "@bhasp/background",
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }

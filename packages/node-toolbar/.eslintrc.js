@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ['@reactflow/eslint-config'],
+  extends: ['@bhasp/eslint-config'],
 };

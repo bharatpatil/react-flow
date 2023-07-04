@@ -13,7 +13,7 @@ import ReactFlow, {
   Controls,
   Background,
   MiniMap,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 const onNodeDragStart = (_: ReactMouseEvent, node: Node, nodes: Node[]) => console.log('drag start', node, nodes);
 const onNodeDrag = (_: ReactMouseEvent, node: Node, nodes: Node[]) => console.log('drag', node, nodes);

@@ -1,4 +1,4 @@
-import { useKeyPress } from 'reactflow';
+import { useKeyPress } from '@bhasp/reactflow';
 
 const UseKeyPressComponent = () => {
   const metaPressed = useKeyPress(['Meta']);

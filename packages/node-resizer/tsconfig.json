@@ -1,6 +1,6 @@
 {
-  "extends": "@reactflow/tsconfig/react.json",
-  "display": "@reactflow/node-resizer",
+  "extends": "@bhasp/tsconfig/react.json",
+  "display": "@bhasp/node-resizer",
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }

@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import ReactFlow, { Node, useNodes } from 'reactflow';
+import ReactFlow, { Node, useNodes } from '@bhasp/reactflow';
 
 import { nodes } from '../../fixtures/simpleflow';
 

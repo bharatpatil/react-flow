@@ -11,7 +11,7 @@ import ReactFlow, {
   Node,
   useEdgesState,
   useNodesState,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import CustomEdge from './CustomEdge';
 import CustomEdge2 from './CustomEdge2';

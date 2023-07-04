@@ -13,7 +13,7 @@ import ReactFlow, {
   EdgeMarker,
   Panel,
   useReactFlow,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import initialItems from './initial-elements';
 

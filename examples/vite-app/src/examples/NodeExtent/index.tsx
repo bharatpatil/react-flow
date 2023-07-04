@@ -11,7 +11,7 @@ import ReactFlow, {
   Background,
   CoordinateExtent,
   NodeOrigin,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import DebugNode from './DebugNode';
 

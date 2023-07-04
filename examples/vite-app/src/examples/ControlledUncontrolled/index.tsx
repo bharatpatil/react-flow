@@ -7,7 +7,7 @@ import ReactFlow, {
   useEdgesState,
   Background,
   BackgroundVariant,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 const defaultNodes: Node[] = [
   {

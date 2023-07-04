@@ -1,6 +1,6 @@
 import React, { memo, FC } from 'react';
 
-import { Handle, Position, NodeProps, Connection, Edge } from 'reactflow';
+import { Handle, Position, NodeProps, Connection, Edge } from '@bhasp/reactflow';
 
 const onConnect = (params: Connection | Edge) => console.log('handle onConnect', params);
 

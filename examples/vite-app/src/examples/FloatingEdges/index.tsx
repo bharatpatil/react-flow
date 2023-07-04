@@ -8,7 +8,7 @@ import ReactFlow, {
   Connection,
   useNodesState,
   useEdgesState,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import styles from './style.module.css';
 

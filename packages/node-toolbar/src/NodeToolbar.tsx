@@ -9,7 +9,7 @@ import {
   Position,
   internalsSymbol,
   useNodeId,
-} from '@reactflow/core';
+} from '@bhasp/core';
 import cc from 'classcat';
 import { shallow } from 'zustand/shallow';
 

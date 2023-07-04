@@ -12,7 +12,7 @@ import ReactFlow, {
   Controls,
   Background,
   MiniMap,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import { getNodesAndEdges } from './utils';
 

@@ -1,5 +1,5 @@
 import { memo, FC } from 'react';
-import { Handle, Position, NodeProps, NodeResizeControl } from 'reactflow';
+import { Handle, Position, NodeProps, NodeResizeControl } from '@bhasp/reactflow';
 
 const HorizontalResizerNode: FC<NodeProps> = ({ data }) => {
   return (

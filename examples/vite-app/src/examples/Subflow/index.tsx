@@ -12,7 +12,7 @@ import ReactFlow, {
   MiniMap,
   Background,
   Panel,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import DebugNode from './DebugNode';
 

@@ -30,7 +30,7 @@ Talking to us first about the enhancement you want to build will be the most lik
 
 ### Contact us
 
-To ask about a possible enhancement, email us at info@reactflow.dev
+To ask about a possible enhancement, email us at info@bhasp.dev
 
 
 ### 💫 Pull Requests

@@ -1,4 +1,4 @@
-import { NodeToolbar, ReactFlowState, useStore } from 'reactflow';
+import { NodeToolbar, ReactFlowState, useStore } from '@bhasp/reactflow';
 
 const selectedNodesSelector = (state: ReactFlowState) =>
   state

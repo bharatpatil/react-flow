@@ -12,7 +12,7 @@ import ReactFlow, {
   NodeChange,
   EdgeChange,
   HandleType,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 const initialNodes: Node[] = [
   {

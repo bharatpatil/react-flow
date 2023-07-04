@@ -11,7 +11,7 @@ import ReactFlow, {
   useEdgesState,
   MarkerType,
   MiniMap,
-} from 'reactflow';
+} from '@bhasp/reactflow';
 
 import styles from './multiflows.module.css';
 

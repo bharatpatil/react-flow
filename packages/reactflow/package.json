@@ -1,5 +1,5 @@
 {
-  "name": "reactflow",
+  "name": "@bhasp/reactflow",
   "version": "11.7.4",
   "description": "A highly customizable React library for building node-based editors and interactive flow charts",
   "keywords": [
@@ -27,29 +27,29 @@
     "directory": "packages/reactflow"
   },
   "scripts": {
-    "dev": "concurrently \"rollup --config node:@reactflow/rollup-config --watch\" pnpm:css-watch",
-    "build": "rollup --config node:@reactflow/rollup-config --environment NODE_ENV:production && npm run css",
+    "dev": "concurrently \"rollup --config node:@bhasp/rollup-config --watch\" pnpm:css-watch",
+    "build": "rollup --config node:@bhasp/rollup-config --environment NODE_ENV:production && npm run css",
     "css": "postcss src/*.css --config ../../tooling/postcss-config/postcss.config.js --dir dist",
     "css-watch": "pnpm css --watch",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@reactflow/background": "workspace:*",
-    "@reactflow/controls": "workspace:*",
-    "@reactflow/core": "workspace:*",
-    "@reactflow/minimap": "workspace:*",
-    "@reactflow/node-resizer": "workspace:*",
-    "@reactflow/node-toolbar": "workspace:*"
+    "@bhasp/background": "workspace:*",
+    "@bhasp/controls": "workspace:*",
+    "@bhasp/core": "workspace:*",
+    "@bhasp/minimap": "workspace:*",
+    "@bhasp/node-resizer": "workspace:*",
+    "@bhasp/node-toolbar": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=17",
     "react-dom": ">=17"
   },
   "devDependencies": {
-    "@reactflow/eslint-config": "workspace:*",
-    "@reactflow/rollup-config": "workspace:*",
-    "@reactflow/tsconfig": "workspace:*",
+    "@bhasp/eslint-config": "workspace:*",
+    "@bhasp/rollup-config": "workspace:*",
+    "@bhasp/tsconfig": "workspace:*",
     "@types/node": "^18.7.16",
     "@types/react": ">=17",
     "react": "^18.2.0",
@@ -57,11 +57,11 @@
   },
   "rollup": {
     "globals": {
-      "@reactflow/background": "ReactFlowBackground",
-      "@reactflow/controls": "ReactFlowControls",
-      "@reactflow/core": "ReactFlowCore",
-      "@reactflow/minimap": "ReactFlowMinimap",
-      "@reactflow/node-toolbar": "ReactFlowNodeToolbar"
+      "@bhasp/background": "ReactFlowBackground",
+      "@bhasp/controls": "ReactFlowControls",
+      "@bhasp/core": "ReactFlowCore",
+      "@bhasp/minimap": "ReactFlowMinimap",
+      "@bhasp/node-toolbar": "ReactFlowNodeToolbar"
     },
     "name": "ReactFlow"
   }
