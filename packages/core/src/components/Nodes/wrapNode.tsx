@@ -20,6 +20,7 @@ export const arrowKeyDiffs: Record<string, XYPosition> = {
 
 export default (NodeComponent: ComponentType<NodeProps>) => {
   const NodeWrapper = ({
+    index,
     id,
     type,
     data,
@@ -202,6 +203,7 @@ export default (NodeComponent: ComponentType<NodeProps>) => {
       >
         <Provider value={id}>
           <NodeComponent
+            index={index}
             id={id}
             data={data}
             type={type}

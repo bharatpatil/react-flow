@@ -6,6 +6,7 @@ import type { XYPosition, Position, CoordinateExtent, HandleElement } from '.';
 
 // interface for the user node items
 export type Node<T = any, U extends string | undefined = string | undefined> = {
+  index?: number;
   id: string;
   position: XYPosition;
   data: T;
@@ -47,7 +48,7 @@ export type SelectionDragHandler = (event: ReactMouseEvent, nodes: Node[]) => vo
 
 export type WrapNodeProps<T = any> = Pick<
   Node<T>,
-  'id' | 'data' | 'style' | 'className' | 'dragHandle' | 'sourcePosition' | 'targetPosition' | 'hidden' | 'ariaLabel'
+  'id' | 'data' | 'style' | 'className' | 'dragHandle' | 'sourcePosition' | 'targetPosition' | 'hidden' | 'ariaLabel' | 'index'
 > &
   Required<Pick<Node<T>, 'selected' | 'type' | 'zIndex'>> & {
     isConnectable: boolean;
@@ -77,7 +78,7 @@ export type WrapNodeProps<T = any> = Pick<
 // props that get passed to a custom node
 export type NodeProps<T = any> = Pick<
   WrapNodeProps<T>,
-  'id' | 'data' | 'dragHandle' | 'type' | 'selected' | 'isConnectable' | 'xPos' | 'yPos' | 'zIndex'
+  'id' | 'data' | 'dragHandle' | 'type' | 'selected' | 'isConnectable' | 'xPos' | 'yPos' | 'zIndex' | 'index'
 > & {
   dragging: boolean;
   targetPosition?: Position;
