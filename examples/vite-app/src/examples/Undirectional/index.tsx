@@ -12,7 +12,7 @@ import ReactFlow, {
   updateEdge,
   useNodesState,
   useEdgesState,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import CustomNode from './CustomNode';
 

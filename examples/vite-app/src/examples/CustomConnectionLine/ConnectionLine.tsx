@@ -1,4 +1,4 @@
-import { ConnectionLineComponentProps } from '@bhasp/reactflow';
+import { ConnectionLineComponentProps } from '@bharatpatil/reactflow';
 
 function ConnectionLine({ fromX, fromY, toX, toY }: ConnectionLineComponentProps) {
   return (

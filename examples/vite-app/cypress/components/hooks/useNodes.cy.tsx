@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import ReactFlow, { Node, useNodes } from '@bhasp/reactflow';
+import ReactFlow, { Node, useNodes } from '@bharatpatil/reactflow';
 
 import { nodes } from '../../fixtures/simpleflow';
 

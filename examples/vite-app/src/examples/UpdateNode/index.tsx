@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import ReactFlow, { Node, Edge, useNodesState, useEdgesState } from '@bhasp/reactflow';
+import ReactFlow, { Node, Edge, useNodesState, useEdgesState } from '@bharatpatil/reactflow';
 
 import styles from './updatenode.module.css';
 

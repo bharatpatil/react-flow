@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { EdgeProps, getBezierPath, EdgeText, BaseEdge } from '@bhasp/reactflow';
+import { EdgeProps, getBezierPath, EdgeText, BaseEdge } from '@bharatpatil/reactflow';
 
 const CustomEdge: FC<EdgeProps> = ({
   id,

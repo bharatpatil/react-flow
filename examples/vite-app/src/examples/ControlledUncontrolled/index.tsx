@@ -7,7 +7,7 @@ import ReactFlow, {
   useEdgesState,
   Background,
   BackgroundVariant,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 const defaultNodes: Node[] = [
   {

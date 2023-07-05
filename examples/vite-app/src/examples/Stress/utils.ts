@@ -1,4 +1,4 @@
-import { Node, Edge } from '@bhasp/reactflow';
+import { Node, Edge } from '@bharatpatil/reactflow';
 
 type ElementsCollection = {
   nodes: Node[];

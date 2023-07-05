@@ -1,4 +1,4 @@
-import { Edge, Node, Position } from '@bhasp/reactflow';
+import { Edge, Node, Position } from '@bharatpatil/reactflow';
 
 const nodeWidth = 80;
 const nodeGapWidth = nodeWidth * 2;

@@ -10,7 +10,7 @@ import {
   useNodeId,
   NodePositionChange,
   clamp,
-} from '@bhasp/core';
+} from '@bharatpatil/core';
 
 import { ResizeDragEvent, ResizeControlProps, ResizeControlLineProps, ResizeControlVariant } from './types';
 import { getDirection } from './utils';

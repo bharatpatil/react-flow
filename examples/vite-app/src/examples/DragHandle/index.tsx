@@ -1,5 +1,5 @@
 import { MouseEvent } from 'react';
-import ReactFlow, { Node, Edge, useNodesState, useEdgesState } from '@bhasp/reactflow';
+import ReactFlow, { Node, Edge, useNodesState, useEdgesState } from '@bharatpatil/reactflow';
 
 import DragHandleNode from './DragHandleNode';
 

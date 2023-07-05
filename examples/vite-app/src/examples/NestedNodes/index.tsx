@@ -10,7 +10,7 @@ import ReactFlow, {
   Edge,
   ReactFlowInstance,
   Connection,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 const onNodeDragStop = (_: MouseEvent, node: Node) => console.log('drag stop', node);
 const onNodeClick = (_: MouseEvent, node: Node) => console.log('click', node);

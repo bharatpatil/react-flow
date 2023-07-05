@@ -1,8 +1,8 @@
-export * from '@bhasp/core';
-export * from '@bhasp/minimap';
-export * from '@bhasp/controls';
-export * from '@bhasp/background';
-export * from '@bhasp/node-toolbar';
-export * from '@bhasp/node-resizer';
+export * from '@bharatpatil/core';
+export * from '@bharatpatil/minimap';
+export * from '@bharatpatil/controls';
+export * from '@bharatpatil/background';
+export * from '@bharatpatil/node-toolbar';
+export * from '@bharatpatil/node-resizer';
 
-export { ReactFlow as default } from '@bhasp/core';
+export { ReactFlow as default } from '@bharatpatil/core';

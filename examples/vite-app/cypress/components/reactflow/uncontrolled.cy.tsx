@@ -1,4 +1,4 @@
-import ReactFlow from '@bhasp/reactflow';
+import ReactFlow from '@bharatpatil/reactflow';
 
 import { nodes, edges } from '../../fixtures/simpleflow';
 

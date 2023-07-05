@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { getBezierPath, ConnectionLineComponentProps, Node } from '@bhasp/reactflow';
+import { getBezierPath, ConnectionLineComponentProps, Node } from '@bharatpatil/reactflow';
 
 import { getEdgeParams } from './utils';
 

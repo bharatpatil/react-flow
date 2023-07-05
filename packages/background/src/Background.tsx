@@ -1,6 +1,6 @@
 import { memo, useRef } from 'react';
 import cc from 'classcat';
-import { useStore, ReactFlowState } from '@bhasp/core';
+import { useStore, ReactFlowState } from '@bharatpatil/core';
 import { shallow } from 'zustand/shallow';
 
 import { BackgroundProps, BackgroundVariant } from './types';

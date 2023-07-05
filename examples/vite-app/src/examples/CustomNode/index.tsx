@@ -10,7 +10,7 @@ import ReactFlow, {
   Connection,
   useNodesState,
   useEdgesState,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import ColorSelectorNode from './ColorSelectorNode';
 

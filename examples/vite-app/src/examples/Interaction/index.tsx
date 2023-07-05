@@ -10,7 +10,7 @@ import ReactFlow, {
   useEdgesState,
   Controls,
   MiniMap,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 const initialNodes: Node[] = [
   {

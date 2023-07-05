@@ -83,10 +83,10 @@ importers:
 
   examples/vite-app:
     dependencies:
-      '@bhasp/node-resizer':
+      '@bharatpatil/node-resizer':
         specifier: workspace:*
         version: link:../../packages/node-resizer
-      '@bhasp/reactflow':
+      '@bharatpatil/reactflow':
         specifier: workspace:*
         version: link:../../packages/reactflow
       classcat:
@@ -144,7 +144,7 @@ importers:
 
   packages/background:
     dependencies:
-      '@bhasp/core':
+      '@bharatpatil/core':
         specifier: workspace:*
         version: link:../core
       classcat:
@@ -157,13 +157,13 @@ importers:
         specifier: ^4.3.1
         version: registry.npmjs.org/zustand@4.3.1(react@18.2.0)
     devDependencies:
-      '@bhasp/eslint-config':
+      '@bharatpatil/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@bhasp/rollup-config':
+      '@bharatpatil/rollup-config':
         specifier: workspace:*
         version: link:../../tooling/rollup-config
-      '@bhasp/tsconfig':
+      '@bharatpatil/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/node':
@@ -181,7 +181,7 @@ importers:
 
   packages/controls:
     dependencies:
-      '@bhasp/core':
+      '@bharatpatil/core':
         specifier: workspace:*
         version: link:../core
       classcat:
@@ -197,13 +197,13 @@ importers:
         specifier: ^4.3.1
         version: registry.npmjs.org/zustand@4.3.1(react@18.2.0)
     devDependencies:
-      '@bhasp/eslint-config':
+      '@bharatpatil/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@bhasp/rollup-config':
+      '@bharatpatil/rollup-config':
         specifier: workspace:*
         version: link:../../tooling/rollup-config
-      '@bhasp/tsconfig':
+      '@bharatpatil/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/node':
@@ -249,13 +249,13 @@ importers:
         specifier: ^4.3.1
         version: registry.npmjs.org/zustand@4.3.1(react@18.2.0)
     devDependencies:
-      '@bhasp/eslint-config':
+      '@bharatpatil/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@bhasp/rollup-config':
+      '@bharatpatil/rollup-config':
         specifier: workspace:*
         version: link:../../tooling/rollup-config
-      '@bhasp/tsconfig':
+      '@bharatpatil/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/node':
@@ -276,7 +276,7 @@ importers:
 
   packages/minimap:
     dependencies:
-      '@bhasp/core':
+      '@bharatpatil/core':
         specifier: workspace:*
         version: link:../core
       '@types/d3-selection':
@@ -301,13 +301,13 @@ importers:
         specifier: ^4.3.1
         version: registry.npmjs.org/zustand@4.3.1(react@18.2.0)
     devDependencies:
-      '@bhasp/eslint-config':
+      '@bharatpatil/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@bhasp/rollup-config':
+      '@bharatpatil/rollup-config':
         specifier: workspace:*
         version: link:../../tooling/rollup-config
-      '@bhasp/tsconfig':
+      '@bharatpatil/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/node':
@@ -325,7 +325,7 @@ importers:
 
   packages/node-resizer:
     dependencies:
-      '@bhasp/core':
+      '@bharatpatil/core':
         specifier: workspace:^11.6.0
         version: link:../core
       classcat:
@@ -344,13 +344,13 @@ importers:
         specifier: ^4.3.1
         version: registry.npmjs.org/zustand@4.3.1(react@18.2.0)
     devDependencies:
-      '@bhasp/eslint-config':
+      '@bharatpatil/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@bhasp/rollup-config':
+      '@bharatpatil/rollup-config':
         specifier: workspace:*
         version: link:../../tooling/rollup-config
-      '@bhasp/tsconfig':
+      '@bharatpatil/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/d3-drag':
@@ -377,7 +377,7 @@ importers:
 
   packages/node-toolbar:
     dependencies:
-      '@bhasp/core':
+      '@bharatpatil/core':
         specifier: workspace:*
         version: link:../core
       classcat:
@@ -390,13 +390,13 @@ importers:
         specifier: ^4.3.1
         version: registry.npmjs.org/zustand@4.3.1(react@18.2.0)
     devDependencies:
-      '@bhasp/eslint-config':
+      '@bharatpatil/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@bhasp/rollup-config':
+      '@bharatpatil/rollup-config':
         specifier: workspace:*
         version: link:../../tooling/rollup-config
-      '@bhasp/tsconfig':
+      '@bharatpatil/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/node':
@@ -417,35 +417,35 @@ importers:
 
   packages/reactflow:
     dependencies:
-      '@bhasp/background':
+      '@bharatpatil/background':
         specifier: workspace:*
         version: link:../background
-      '@bhasp/controls':
+      '@bharatpatil/controls':
         specifier: workspace:*
         version: link:../controls
-      '@bhasp/core':
+      '@bharatpatil/core':
         specifier: workspace:*
         version: link:../core
-      '@bhasp/minimap':
+      '@bharatpatil/minimap':
         specifier: workspace:*
         version: link:../minimap
-      '@bhasp/node-resizer':
+      '@bharatpatil/node-resizer':
         specifier: workspace:*
         version: link:../node-resizer
-      '@bhasp/node-toolbar':
+      '@bharatpatil/node-toolbar':
         specifier: workspace:*
         version: link:../node-toolbar
       react-dom:
         specifier: '>=17'
         version: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
     devDependencies:
-      '@bhasp/eslint-config':
+      '@bharatpatil/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@bhasp/rollup-config':
+      '@bharatpatil/rollup-config':
         specifier: workspace:*
         version: link:../../tooling/rollup-config
-      '@bhasp/tsconfig':
+      '@bharatpatil/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/node':

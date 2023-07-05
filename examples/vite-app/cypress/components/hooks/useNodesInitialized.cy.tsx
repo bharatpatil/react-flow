@@ -1,4 +1,4 @@
-import ReactFlow, { useNodesInitialized } from '@bhasp/reactflow';
+import ReactFlow, { useNodesInitialized } from '@bharatpatil/reactflow';
 
 import { nodes } from '../../fixtures/simpleflow';
 import ControlledFlow from '../../support/ControlledFlow';

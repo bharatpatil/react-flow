@@ -7,7 +7,7 @@ import ReactFlow, {
   Background,
   BackgroundProps,
   BackgroundVariant,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import styles from './style.module.css';
 

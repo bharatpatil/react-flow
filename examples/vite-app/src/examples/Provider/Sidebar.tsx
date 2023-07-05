@@ -1,4 +1,4 @@
-import { useReactFlow, useStore } from '@bhasp/reactflow';
+import { useReactFlow, useStore } from '@bharatpatil/reactflow';
 
 import styles from './provider.module.css';
 

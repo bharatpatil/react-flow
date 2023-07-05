@@ -1,4 +1,4 @@
-import ReactFlow, { Node, Edge, Position, MarkerType } from '@bhasp/reactflow';
+import ReactFlow, { Node, Edge, Position, MarkerType } from '@bharatpatil/reactflow';
 
 const nodes: Node[] = [
   // LTR

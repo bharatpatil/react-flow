@@ -1,4 +1,4 @@
-import ReactFlow, { useOnViewportChange, Viewport } from '@bhasp/reactflow';
+import ReactFlow, { useOnViewportChange, Viewport } from '@bharatpatil/reactflow';
 
 describe('useOnViewportChange.cy.tsx', () => {
   it('listen to viewport drag', () => {

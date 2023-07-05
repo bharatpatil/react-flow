@@ -1,5 +1,5 @@
 import { memo, FC } from 'react';
-import { Handle, Position, NodeProps, NodeResizer } from '@bhasp/reactflow';
+import { Handle, Position, NodeProps, NodeResizer } from '@bharatpatil/reactflow';
 
 const DefaultResizerNode: FC<NodeProps> = ({ data, selected }) => {
   return (

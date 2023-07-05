@@ -1,6 +1,6 @@
 {
-  "extends": "@bhasp/tsconfig/react.json",
-  "display": "@bhasp/node-toolbar",
+  "extends": "@bharatpatil/tsconfig/react.json",
+  "display": "@bharatpatil/node-toolbar",
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@bhasp/core",
+  "name": "@bharatpatil/core",
   "version": "11.7.4",
   "description": "Core components and util functions of React Flow.",
   "keywords": [
@@ -30,8 +30,8 @@
     "directory": "packages/core"
   },
   "scripts": {
-    "dev": "concurrently \"rollup --config node:@bhasp/rollup-config --watch\" pnpm:css-watch",
-    "build": "rollup --config node:@bhasp/rollup-config --environment NODE_ENV:production && npm run css",
+    "dev": "concurrently \"rollup --config node:@bharatpatil/rollup-config --watch\" pnpm:css-watch",
+    "build": "rollup --config node:@bharatpatil/rollup-config --environment NODE_ENV:production && npm run css",
     "css": "postcss src/styles/{base,style}.css --config ./../../tooling/postcss-config/postcss.config.js --dir dist",
     "css-watch": "pnpm css --watch",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
@@ -53,9 +53,9 @@
     "react-dom": ">=17"
   },
   "devDependencies": {
-    "@bhasp/eslint-config": "workspace:*",
-    "@bhasp/rollup-config": "workspace:*",
-    "@bhasp/tsconfig": "workspace:*",
+    "@bharatpatil/eslint-config": "workspace:*",
+    "@bharatpatil/rollup-config": "workspace:*",
+    "@bharatpatil/tsconfig": "workspace:*",
     "@types/node": "^18.7.16",
     "@types/react": ">=17",
     "@types/react-dom": ">=17",

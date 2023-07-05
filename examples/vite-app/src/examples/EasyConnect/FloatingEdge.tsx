@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { useStore, getStraightPath, EdgeProps } from '@bhasp/reactflow';
+import { useStore, getStraightPath, EdgeProps } from '@bharatpatil/reactflow';
 
 import { getEdgeParams } from './utils.js';
 

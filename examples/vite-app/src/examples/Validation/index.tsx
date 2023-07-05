@@ -14,7 +14,7 @@ import ReactFlow, {
   OnConnect,
   updateEdge,
   Edge,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import ConnectionStatus from './ConnectionStatus';
 

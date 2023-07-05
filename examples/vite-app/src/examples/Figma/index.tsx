@@ -1,4 +1,4 @@
-import ReactFlow, { Background, BackgroundVariant, Node, Edge, SelectionMode } from '@bhasp/reactflow';
+import ReactFlow, { Background, BackgroundVariant, Node, Edge, SelectionMode } from '@bharatpatil/reactflow';
 
 const MULTI_SELECT_KEY = ['Meta', 'Shift'];
 

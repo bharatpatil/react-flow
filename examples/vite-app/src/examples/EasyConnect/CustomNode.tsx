@@ -1,4 +1,4 @@
-import { Handle, NodeProps, Position, ReactFlowState, useStore } from '@bhasp/reactflow';
+import { Handle, NodeProps, Position, ReactFlowState, useStore } from '@bharatpatil/reactflow';
 
 const connectionNodeIdSelector = (state: ReactFlowState) => state.connectionNodeId;
 

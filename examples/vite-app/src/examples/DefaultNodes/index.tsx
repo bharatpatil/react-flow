@@ -6,7 +6,7 @@ import ReactFlow, {
   Background,
   BackgroundVariant,
   Panel,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 const defaultNodes: Node[] = [
   {

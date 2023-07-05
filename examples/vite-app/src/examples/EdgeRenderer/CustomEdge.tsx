@@ -1,5 +1,5 @@
 import { FC, MouseEvent } from 'react';
-import { EdgeProps, getBezierPath, EdgeLabelRenderer, useStore } from '@bhasp/reactflow';
+import { EdgeProps, getBezierPath, EdgeLabelRenderer, useStore } from '@bharatpatil/reactflow';
 
 const CustomEdge: FC<EdgeProps> = ({
   id,

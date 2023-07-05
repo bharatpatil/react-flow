@@ -1,4 +1,4 @@
-import { Edge, Node } from '@bhasp/reactflow';
+import { Edge, Node } from '@bharatpatil/reactflow';
 
 export const initialNodes: Node[] = [
   {

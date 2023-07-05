@@ -1,6 +1,6 @@
 import React, { memo, FC, CSSProperties } from 'react';
 
-import { Handle, Position, NodeProps } from '@bhasp/reactflow';
+import { Handle, Position, NodeProps } from '@bharatpatil/reactflow';
 
 const nodeStyles: CSSProperties = {
   padding: '10px 15px',

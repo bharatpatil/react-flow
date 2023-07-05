@@ -12,7 +12,7 @@ import ReactFlow, {
   MiniMap,
   Background,
   Panel,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import DebugNode from './DebugNode';
 

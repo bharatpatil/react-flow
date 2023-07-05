@@ -1,6 +1,6 @@
 {
-  "extends": "@bhasp/tsconfig/react.json",
-  "display": "@bhasp/core",
+  "extends": "@bharatpatil/tsconfig/react.json",
+  "display": "@bharatpatil/core",
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }

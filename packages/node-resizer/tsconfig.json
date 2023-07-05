@@ -1,6 +1,6 @@
 {
-  "extends": "@bhasp/tsconfig/react.json",
-  "display": "@bhasp/node-resizer",
+  "extends": "@bharatpatil/tsconfig/react.json",
+  "display": "@bharatpatil/node-resizer",
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }

@@ -1,10 +1,10 @@
-# @bhasp/controls
+# @bharatpatil/controls
 
 Controls component for React Flow.
 
 ## Installation 
 
 ```sh 
-npm install @bhasp/controls
+npm install @bharatpatil/controls
 ```
 

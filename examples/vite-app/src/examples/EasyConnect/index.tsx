@@ -1,11 +1,11 @@
 import { useCallback } from 'react';
-import ReactFlow, { Node, Edge, addEdge, useNodesState, useEdgesState, MarkerType, OnConnect } from '@bhasp/reactflow';
+import ReactFlow, { Node, Edge, addEdge, useNodesState, useEdgesState, MarkerType, OnConnect } from '@bharatpatil/reactflow';
 
 import CustomNode from './CustomNode';
 import FloatingEdge from './FloatingEdge';
 import CustomConnectionLine from './CustomConnectionLine';
 
-import '@bhasp/reactflow/dist/style.css';
+import '@bharatpatil/reactflow/dist/style.css';
 import './style.css';
 
 const initialNodes: Node[] = [

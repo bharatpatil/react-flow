@@ -13,7 +13,7 @@ import ReactFlow, {
   EdgeMarker,
   Panel,
   useReactFlow,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import initialItems from './initial-elements';
 

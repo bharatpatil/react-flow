@@ -1,12 +1,12 @@
 import { useCallback, useState } from 'react';
-import ReactFlow, { Controls, addEdge, Connection, useNodesState, useEdgesState, Panel, Node, Edge } from '@bhasp/reactflow';
+import ReactFlow, { Controls, addEdge, Connection, useNodesState, useEdgesState, Panel, Node, Edge } from '@bharatpatil/reactflow';
 
 import DefaultResizer from './DefaultResizer';
 import CustomResizer from './CustomResizer';
 import VerticalResizer from './VerticalResizer';
 import HorizontalResizer from './HorizontalResizer';
 
-import '@bhasp/reactflow/dist/style.css';
+import '@bharatpatil/reactflow/dist/style.css';
 
 const nodeTypes = {
   defaultResizer: DefaultResizer,

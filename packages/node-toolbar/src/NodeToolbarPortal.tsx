@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import { createPortal } from 'react-dom';
-import { ReactFlowState, useStore } from '@bhasp/core';
+import { ReactFlowState, useStore } from '@bharatpatil/core';
 
 const selector = (state: ReactFlowState) => state.domNode?.querySelector('.react-flow__renderer');
 

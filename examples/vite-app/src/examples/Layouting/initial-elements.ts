@@ -1,4 +1,4 @@
-import { Node, Edge, XYPosition, MarkerType } from '@bhasp/reactflow';
+import { Node, Edge, XYPosition, MarkerType } from '@bharatpatil/reactflow';
 
 const position: XYPosition = { x: 0, y: 0 };
 

@@ -9,7 +9,7 @@ import {
   Position,
   internalsSymbol,
   useNodeId,
-} from '@bhasp/core';
+} from '@bharatpatil/core';
 import cc from 'classcat';
 import { shallow } from 'zustand/shallow';
 

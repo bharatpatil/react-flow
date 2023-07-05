@@ -10,7 +10,7 @@ import ReactFlow, {
   useEdgesState,
   OnConnect,
   useNodesInitialized,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 const initialNodes: Node[] = [
   {

@@ -1,5 +1,5 @@
 import { memo, FC } from 'react';
-import { Handle, Position, NodeProps, NodeToolbar } from '@bhasp/reactflow';
+import { Handle, Position, NodeProps, NodeToolbar } from '@bharatpatil/reactflow';
 
 const CustomNode: FC<NodeProps> = ({ id, data }) => {
   return (

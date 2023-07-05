@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import ReactFlow, { ReactFlowProvider, Node, addEdge, Connection, Edge, useNodesState, useEdgesState } from '@bhasp/reactflow';
+import ReactFlow, { ReactFlowProvider, Node, addEdge, Connection, Edge, useNodesState, useEdgesState } from '@bharatpatil/reactflow';
 
 import Controls from './Controls';
 

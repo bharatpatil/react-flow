@@ -10,7 +10,7 @@ import {
   Connection,
   addEdge,
   ReactFlowProps,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 function ControlledFlow({
   addOnNodeChangeHandler = true,

@@ -1,5 +1,5 @@
 import { FC, useMemo, CSSProperties } from 'react';
-import { EdgeProps, useStore, getBezierPath, ReactFlowState } from '@bhasp/reactflow';
+import { EdgeProps, useStore, getBezierPath, ReactFlowState } from '@bharatpatil/reactflow';
 
 import { getEdgeParams } from './utils';
 

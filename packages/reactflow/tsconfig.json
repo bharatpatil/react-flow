@@ -1,6 +1,6 @@
 {
-  "extends": "@bhasp/tsconfig/react.json",
-  "display": "@bhasp/reactflow",
+  "extends": "@bharatpatil/tsconfig/react.json",
+  "display": "@bharatpatil/reactflow",
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }

@@ -8,7 +8,7 @@ import ReactFlow, {
   NodeTypes,
   Position,
   NodeOrigin,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import CustomNode from './CustomNode';
 import SelectedNodesToolbar from './SelectedNodesToolbar';

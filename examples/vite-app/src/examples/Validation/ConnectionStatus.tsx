@@ -1,4 +1,4 @@
-import { ReactFlowState, useStore } from '@bhasp/reactflow';
+import { ReactFlowState, useStore } from '@bharatpatil/reactflow';
 import { shallow } from 'zustand/shallow';
 
 import styles from './validation.module.css';

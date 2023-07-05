@@ -1,9 +1,9 @@
-# @bhasp/node-resizer
+# @bharatpatil/node-resizer
 
 A resizer component for React Flow that can be attached to a node.
 
 ## Installation 
 
 ```sh 
-npm install @bhasp/node-resizer
+npm install @bharatpatil/node-resizer
 ```

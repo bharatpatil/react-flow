@@ -1,4 +1,4 @@
-import ReactFlow, { EdgeProps } from '@bhasp/reactflow';
+import ReactFlow, { EdgeProps } from '@bharatpatil/reactflow';
 
 import ControlledFlow from '../../support/ControlledFlow';
 import * as simpleflow from '../../fixtures/simpleflow';

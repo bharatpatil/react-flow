@@ -9,7 +9,7 @@ import ReactFlow, {
   Edge,
   useReactFlow,
   Panel,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 const onNodeDrag = (_: MouseEvent, node: Node) => console.log('drag', node);
 const onNodeDragStop = (_: MouseEvent, node: Node) => console.log('drag stop', node);

@@ -10,7 +10,7 @@ import ReactFlow, {
   OnConnectStart,
   OnConnectEnd,
   useStore,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import useCountdown from './hooks/useCountdown';
 import { initialEdges, initialNodes } from './data';

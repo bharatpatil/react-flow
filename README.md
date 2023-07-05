@@ -59,9 +59,9 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   addEdge,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
-import '@bhasp/reactflow/dist/style.css';
+import '@bharatpatil/reactflow/dist/style.css';
 
 const initialNodes = [
   { id: '1', position: { x: 0, y: 0 }, data: { label: '1' } },

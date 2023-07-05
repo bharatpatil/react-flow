@@ -1,5 +1,5 @@
 import type { ButtonHTMLAttributes, HTMLAttributes } from 'react';
-import type { FitViewOptions, PanelPosition } from '@bhasp/core';
+import type { FitViewOptions, PanelPosition } from '@bharatpatil/core';
 
 export type ControlProps = HTMLAttributes<HTMLDivElement> & {
   showZoom?: boolean;

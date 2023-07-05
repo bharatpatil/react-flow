@@ -11,7 +11,7 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   Panel,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 const initialNodes: Node[] = [
   {

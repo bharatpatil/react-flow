@@ -1,4 +1,4 @@
-import { Position } from '@bhasp/core';
+import { Position } from '@bharatpatil/core';
 import type { HTMLAttributes } from 'react';
 
 export type NodeToolbarProps = HTMLAttributes<HTMLDivElement> & {

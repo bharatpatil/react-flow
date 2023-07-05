@@ -1,5 +1,5 @@
 {
-  "name": "@bhasp/minimap",
+  "name": "@bharatpatil/minimap",
   "version": "11.5.4",
   "description": "Minimap component for React Flow.",
   "keywords": [
@@ -30,15 +30,15 @@
     "directory": "packages/minimap"
   },
   "scripts": {
-    "dev": "concurrently \"rollup --config node:@bhasp/rollup-config --watch\" pnpm:css-watch",
-    "build": "rollup --config node:@bhasp/rollup-config --environment NODE_ENV:production && npm run css",
+    "dev": "concurrently \"rollup --config node:@bharatpatil/rollup-config --watch\" pnpm:css-watch",
+    "build": "rollup --config node:@bharatpatil/rollup-config --environment NODE_ENV:production && npm run css",
     "css": "postcss src/*.css --config ../../tooling/postcss-config/postcss.config.js --dir dist",
     "css-watch": "pnpm css --watch",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@bhasp/core": "workspace:*",
+    "@bharatpatil/core": "workspace:*",
     "@types/d3-selection": "^3.0.3",
     "@types/d3-zoom": "^3.0.1",
     "classcat": "^5.0.3",
@@ -51,9 +51,9 @@
     "react-dom": ">=17"
   },
   "devDependencies": {
-    "@bhasp/eslint-config": "workspace:*",
-    "@bhasp/rollup-config": "workspace:*",
-    "@bhasp/tsconfig": "workspace:*",
+    "@bharatpatil/eslint-config": "workspace:*",
+    "@bharatpatil/rollup-config": "workspace:*",
+    "@bharatpatil/tsconfig": "workspace:*",
     "@types/node": "^18.7.16",
     "@types/react": ">=17",
     "react": "^18.2.0",

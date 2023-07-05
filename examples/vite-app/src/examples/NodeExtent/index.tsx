@@ -11,7 +11,7 @@ import ReactFlow, {
   Background,
   CoordinateExtent,
   NodeOrigin,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import DebugNode from './DebugNode';
 

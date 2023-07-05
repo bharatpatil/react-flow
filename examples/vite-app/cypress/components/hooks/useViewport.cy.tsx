@@ -1,4 +1,4 @@
-import ReactFlow, { useViewport, Viewport } from '@bhasp/reactflow';
+import ReactFlow, { useViewport, Viewport } from '@bharatpatil/reactflow';
 
 describe('useViewport.cy.tsx', () => {
   it('handles drag', () => {

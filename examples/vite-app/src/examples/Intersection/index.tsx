@@ -8,7 +8,7 @@ import ReactFlow, {
   Edge,
   useReactFlow,
   useNodesState,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import './style.css';
 

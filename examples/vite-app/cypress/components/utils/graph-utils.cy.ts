@@ -1,4 +1,4 @@
-import { Node, Edge, isNode, isEdge, getOutgoers, getIncomers, addEdge } from '@bhasp/reactflow';
+import { Node, Edge, isNode, isEdge, getOutgoers, getIncomers, addEdge } from '@bharatpatil/reactflow';
 
 const nodes: Node[] = [
   {

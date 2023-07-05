@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import ReactFlow, { Node, Edge, useNodesState, useEdgesState, Position, Connection, addEdge } from '@bhasp/reactflow';
+import ReactFlow, { Node, Edge, useNodesState, useEdgesState, Position, Connection, addEdge } from '@bharatpatil/reactflow';
 
 import styles from './touch-device.module.css';
 

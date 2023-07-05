@@ -1,4 +1,4 @@
-# @bhasp/core
+# @bharatpatil/core
 
 ## 11.7.4
 
@@ -312,7 +312,7 @@ In this update we did some changes so that we could implement the new [`<NodeRes
 - **Pan over nodes** when they are not draggable (`draggable=false` or `nodesDraggable` false)
 - **[`<BaseEdge />`](/docs/api/edges/base-edge) component** that makes it easier to build custom edges
 - **[Separately installable packages](/docs/overview/packages/)**
-  - @bhasp/core
-  - @bhasp/background
-  - @bhasp/controls
-  - @bhasp/minimap
+  - @bharatpatil/core
+  - @bharatpatil/background
+  - @bharatpatil/controls
+  - @bharatpatil/minimap

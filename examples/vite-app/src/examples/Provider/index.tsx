@@ -10,7 +10,7 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   ReactFlowInstance,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import Sidebar from './Sidebar';
 

@@ -10,7 +10,7 @@ import ReactFlow, {
   Edge,
   useNodesState,
   useEdgesState,
-} from '@bhasp/reactflow';
+} from '@bharatpatil/reactflow';
 
 import { getElements } from './utils';
 
