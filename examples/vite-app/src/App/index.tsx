@@ -7,6 +7,7 @@ import ControlledUncontrolled from '../examples/ControlledUncontrolled';
 import CustomConnectionLine from '../examples/CustomConnectionLine';
 import CustomMiniMapNode from '../examples/CustomMiniMapNode';
 import CustomNode from '../examples/CustomNode';
+import NodeIndex from '../examples/NodeIndex';
 import DefaultNodes from '../examples/DefaultNodes';
 import DragHandle from '../examples/DragHandle';
 import DragNDrop from '../examples/DragNDrop';
@@ -89,6 +90,11 @@ const routes: IRoute[] = [
     name: 'Custom Node',
     path: '/custom-node',
     component: CustomNode,
+  },
+  {
+    name: 'Node Index',
+    path: '/node-index',
+    component: NodeIndex,
   },
   {
     name: 'Default Nodes',
